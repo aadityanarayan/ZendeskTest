@@ -1,0 +1,12 @@
+{
+  "AppEnvironments": [
+    {
+      "environment": "develop",
+      "appUrl": "https://app.futuresimple.com/working/leads"
+    },
+    {
+      "environment": "production",
+      "appUrl": "https://app.futuresimple.com/working/leads"
+    }
+  ]
+}

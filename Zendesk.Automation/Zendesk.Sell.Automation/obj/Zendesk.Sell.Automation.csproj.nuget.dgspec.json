@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.Sell.Automation\\Zendesk.Sell.Automation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.AutoFramework\\Zendesk.AutoFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.AutoFramework\\Zendesk.AutoFramework.csproj",
+        "projectName": "Zendesk.AutoFramework",
+        "projectPath": "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.AutoFramework\\Zendesk.AutoFramework.csproj",
+        "packagesPath": "C:\\Users\\narayad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.AutoFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\narayad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://dub-eu-p-nug01.development.fleetmatics.com:8080/nuget/fleetmatics-qa": {},
+          "http://dub-eu-p-nug01.development.fleetmatics.com:8080/nuget/fleetmatics-trunk": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[89.0.4389.2300, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.Sell.Automation\\Zendesk.Sell.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.Sell.Automation\\Zendesk.Sell.Automation.csproj",
+        "projectName": "Zendesk.Sell.Automation",
+        "projectPath": "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.Sell.Automation\\Zendesk.Sell.Automation.csproj",
+        "packagesPath": "C:\\Users\\narayad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.Sell.Automation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\narayad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://dub-eu-p-nug01.development.fleetmatics.com:8080/nuget/fleetmatics-qa": {},
+          "http://dub-eu-p-nug01.development.fleetmatics.com:8080/nuget/fleetmatics-trunk": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.AutoFramework\\Zendesk.AutoFramework.csproj": {
+                "projectPath": "C:\\Users\\narayad\\TestProjects\\Zendesk.Automation\\Zendesk.AutoFramework\\Zendesk.AutoFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[89.0.4389.2300, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
